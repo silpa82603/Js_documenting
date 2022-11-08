@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.left_div{
+   margin-left: 1px;
+    width: 20%;
+    background-color: rgb(232, 234, 236);
+    border:2px solid rgb(146, 152, 152)
+}
+.right_div{
+    width: 80%;
+    padding:10px;
+    background-color: #fff;
+}
+.nav{
+    position: fixed;
+}
+.nav p{
+margin-left: 30px;
+    padding: 10px 5px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.introduction,.child1{
+    margin:10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.introduction h3{
+    margin: 2% 0 0 5%;
+    color:rgb(57, 57, 184)
+}
+.introduction p{
+    margin: 1% 0 0 7%;
+    font-size: 20px;
+    font-weight: 300;
+}
+.introduction ul{
+    font-size: 18px;
+    margin: 2% 0 2% 9%; 
+}
+.css_introduction{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.css_introduction h3{
+    margin: 2% 0 0 5%;
+    color:rgb(173, 22, 103)
+}
+.css_introduction p{
+    margin: 1% 0 0 7%;
+    font-size: 19px;
+    font-weight: 300;
+}
+.child1 h3{
+    margin: 2% 0 0 5%;
+    color:rgb(57, 57, 184)
+}
+.child1 h1{
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    color:rgb(173, 22, 103) ;
+}
+.child1 p{
+    margin: 1% 0 0 7%;
+    font-size: 19px;
+    font-weight: 300;
+}
+.child1 li{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 9%;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+.child1 img{
+    margin: 4% 0 0 15%;
+    width: 50%;
+      
+}
